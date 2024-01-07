@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5243c30cee6d5e646a1040c3f9db153c, type: 3}
+  m_Name: 2_SlimeBlue
+  m_EditorClassIdentifier: 
+  characterID: 2_BigSlime
+  characterName: Big Slime
+  characterDescription: 
+  maxHealth: 100
+  enemyPrefab: {fileID: 1289782257347196350, guid: 3e809c9f45fc7c849bbfb08468675a4b, type: 3}
+  followAbilityPattern: 0
+  enemyAbilityList:
+  - {fileID: 11400000, guid: e2cf2f5f49f17114c8e11df4f99014cb, type: 2}
+  - {fileID: 11400000, guid: 7b6229ac5904aa34cb18706d8567a75f, type: 2}
+  - {fileID: 11400000, guid: 3a2aac36c56d50244996065120eff548, type: 2}
+  - {fileID: 11400000, guid: 1411b823518e3094bb151ba5373a2c08, type: 2}
+  - {fileID: 11400000, guid: 446cac19316920f4a9ab409adf2aa950, type: 2}

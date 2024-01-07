@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82371dbe6b805244ca64ac9fcdf977dc, type: 3}
+  m_Name: Gameplay Data
+  m_EditorClassIdentifier: 
+  drawCount: 4
+  maxMana: 4
+  initalPlayer: {fileID: 0}
+  initalDeck: {fileID: 11400000, guid: be5cdb81dc21977408ce78030f5acb05, type: 2}
+  maxCardOnHand: 5
+  allCardsList:
+  - {fileID: 11400000, guid: 92ff56936a4e3cb46a27ba9c415d9dd0, type: 2}
+  - {fileID: 11400000, guid: 4f579ec801eee424b8665bb358c73c6f, type: 2}
+  - {fileID: 11400000, guid: 24a3ff56ac23d1f45ac4d7a59f83b4b9, type: 2}
+  - {fileID: 11400000, guid: b5d0fd2da83a689498a2f4821eaeb33d, type: 2}
+  - {fileID: 11400000, guid: c17b0e8fd74c3144a8c6a99499b8fc9d, type: 2}
+  - {fileID: 11400000, guid: 41980cb7ca3c17c43b3ac9563e262e43, type: 2}
+  - {fileID: 11400000, guid: b5c1336990f152742ac7f78af3045556, type: 2}
+  - {fileID: 11400000, guid: 4a04c49b00e7da848b3833cc781aa72f, type: 2}
+  cardPrefab: {fileID: 95031647904035693, guid: c5ddcf4f99f0efe4c8ccdd08e39b7f8c, type: 3}
+  enemyCardPrefab: {fileID: 8148848248733116989, guid: 4e4079c66301b584e93bde6634e46df0, type: 3}
+  isRandomHand: 0
+  randomCardCount: 0

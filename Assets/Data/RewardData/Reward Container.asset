@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f5f6b92442f9ad4fb5ffa4b804b7e9e, type: 3}
+  m_Name: Reward Container
+  m_EditorClassIdentifier: 
+  cardRewardDataList:
+  - {fileID: 11400000, guid: 9bac4c429bdd3e64284948cdcf452f07, type: 2}
+  - {fileID: 11400000, guid: 1db9f231d8e8b904490894fce0c5435b, type: 2}
+  - {fileID: 11400000, guid: 00a2b6e70785b9c4d8df161c8b06701a, type: 2}
+  - {fileID: 11400000, guid: e0dd3b470b9dcd9449a72bc3cd5a17d1, type: 2}
+  goldRewardDataList: []

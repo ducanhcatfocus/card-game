@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42edda17e7b02824a8f6eab423f3453a, type: 3}
+  m_Name: 1_Attack_Basic
+  m_EditorClassIdentifier: 
+  id: 1_Atk_Basic
+  cardName: Attack Basic
+  manaCost: 1
+  cardSprite: {fileID: 21300000, guid: c4cf69daca0604943ac0537b99d3e412, type: 3}
+  cardBGSprite: {fileID: -68956075, guid: 0d4b4cf92a13a9743915cb94b2d8c593, type: 3}
+  rarity: 0
+  usableWithoutTarget: 0
+  exhaustAfterPlay: 0
+  cardActionDataList:
+  - cardActionType: 0
+    actionTargetType: 0
+    actionValue: 7
+    actionDelay: 0
+  cardDescription: Deal Damage

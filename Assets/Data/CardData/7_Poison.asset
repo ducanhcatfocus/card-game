@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42edda17e7b02824a8f6eab423f3453a, type: 3}
+  m_Name: 7_Poison
+  m_EditorClassIdentifier: 
+  id: 7_Poison
+  cardName: Poison
+  manaCost: 1
+  cardSprite: {fileID: -1702573636, guid: e0b76cedb49bf644da995671e6deea33, type: 3}
+  cardBGSprite: {fileID: -1238370338, guid: bd731a376d2f7024c9ce98472924a6b1, type: 3}
+  rarity: 0
+  usableWithoutTarget: 1
+  exhaustAfterPlay: 0
+  cardActionDataList:
+  - cardActionType: 11
+    actionTargetType: 0
+    actionValue: 15
+    actionDelay: 0
+  cardDescription: Deal 1 damage when play card
+  audioType: 8

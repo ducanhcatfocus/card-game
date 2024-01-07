@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42edda17e7b02824a8f6eab423f3453a, type: 3}
+  m_Name: 3_PowerUp
+  m_EditorClassIdentifier: 
+  id: 3_PowerUp
+  cardName: Power Up
+  manaCost: 1
+  cardSprite: {fileID: 21300000, guid: a0c75614ede963a46af4bc352b3faabd, type: 3}
+  cardBGSprite: {fileID: -68956075, guid: 0d4b4cf92a13a9743915cb94b2d8c593, type: 3}
+  rarity: 0
+  usableWithoutTarget: 1
+  exhaustAfterPlay: 0
+  cardActionDataList:
+  - cardActionType: 4
+    actionTargetType: 1
+    actionValue: 4
+    actionDelay: 0
+  cardDescription: Increase 4  basic damage
+  audioType: 9

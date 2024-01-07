@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5243c30cee6d5e646a1040c3f9db153c, type: 3}
+  m_Name: 2_SlimeBoss
+  m_EditorClassIdentifier: 
+  characterID: 2_SlimeBoss
+  characterName: Slime Boss
+  characterDescription: 
+  maxHealth: 200
+  enemyPrefab: {fileID: 8997486105318438255, guid: 5327acbcdb1924a4086fd08d4e37da1e, type: 3}
+  followAbilityPattern: 0
+  enemyAbilityList:
+  - {fileID: 11400000, guid: f447f8d5269e42f41aa89d1c6ecc9a8d, type: 2}
+  - {fileID: 11400000, guid: 85862508ad53f6c49aa775cb94d8e0d0, type: 2}
+  - {fileID: 11400000, guid: 3eaf43a0c75992a4fb25e2e12618b127, type: 2}
+  - {fileID: 11400000, guid: 05d1c35b849f1624fbc6f176ab78264c, type: 2}
+  - {fileID: 11400000, guid: 446cac19316920f4a9ab409adf2aa950, type: 2}
